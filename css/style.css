@@ -63,21 +63,39 @@ section#profile .profile_main .p_right dl span.intro{color: #919252;}
 section h2 {font-size: 17px; margin: 0 auto; border-bottom: 1px solid gray; width: 90px; padding-bottom: 20px; font-family: "SpoqaR"; text-align: center;}
 section h3 {font-size: 35px ; text-align: center; margin-top: 30px; margin-bottom: 30px; letter-spacing: 2px; font-weight: 100;}
 
-/* 소개 - skill */
 section#skill {width: 100%; padding: 0 0 60px 0;}
-section#skill .skill_main{width: 1400px; overflow: hidden; margin: 0 auto; padding: 60px 0;}
-section#skill .skill_main .box {width: 220px; height: 280px; position: relative; margin-top: 100px; margin-left: 50px;}
-section#skill .skill_main .box>i {color:#fff;  background: #919252; border-radius: 50%; width: 33px; height: 33px; margin-bottom: 10px; margin-left: 82px; padding: 10px; text-align: center;}
-section#skill .skill_main .box dl dt {font-size: 20px; margin-bottom: 30px; padding-top: 15px; text-align: center; width: 100%; font-weight: bold;}
-section#skill .skill_main .box dl dd {position: relative; font-size: 14px; line-height: 1.7; text-align: left; letter-spacing: -1px; padding-top: 0; padding-left: 0;}
+
+section#skill .skill_main{width: 1400px;
+overflow: hidden; margin: 0 auto; padding: 60px 0;
+}
+
+section#skill .skill_main .box{width: 220px; 
+height: 280px; position: relative; margin-top: 100px;
+margin-left: 50px; }
+section#skill .skill_main .box>i{
+  color:#fff;  background: #f2b111; border-radius: 50%;
+  width: 33px; height: 33px; margin-bottom: 10px;
+  margin-left: 82px;  padding: 10px; text-align: center;
+}
+section#skill .skill_main .box dl dt{font-size: 20px;
+margin-bottom: 30px; padding-top: 15px; text-align: center;
+width: 100%; font-weight: bold;}
+section#skill .skill_main .box dl dd{
+    position: relative; font-size: 14px; 
+    line-height: 1.7; text-align: left;
+    letter-spacing: -1px; padding-top: 0; padding-left: 0;
+}
 section#skill .skill_main .box.about dl dd {text-align: center;}
-section#skill .skill_main .box.contacts dl dd { text-align: center;}
-section#skill .skill_main .box.licenses dl dd {text-align: center;}
-section#skill .skill_main .box.tools dl dd {text-align: center;}
-section#skill .skill_main .box.skills dl dd {text-align: center;}
+section#skill .skill_main .box.contacts dl dd {padding-left: 60px;}
+section#skill .skill_main .box.licenses dl dd {padding-left: 60px;}
+section#skill .skill_main .box.tools dl dd {padding-left: 65px;}
+section#skill .skill_main .box.skills dl dd {padding-left: 85px;}
 
 /* icon */
-section#skill .skill_main .box.contacts dl dd i {position: absolute; left: 30px; color: #a7a7a7; font-size: 16px; padding-top: 4px;}
+section#skill .skill_main .box.contacts dl dd i {
+    position: absolute; left: 30px; 
+    color: #a7a7a7; font-size: 16px; padding-top: 4px;
+}
 
 /* portfolio */
 section#portfolio {min-width: 1400px; width: 100%; position: relative; background: url("../images/pf/pf-bg.jpg"); background-size: cover; padding-top: 70px;}
